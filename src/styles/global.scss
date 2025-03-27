@@ -1,0 +1,111 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+    input, select {
+      padding: 8px;
+      font-size: 16px;
+    }
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+  
+    tr:hover {
+      background-color: #f2f2f2;
+      cursor: pointer;
+    }
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    
+    button {
+      margin: 5px;
+      padding: 5px 10px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  /* Film Detayları Sayfası */
+.movie-details-container {
+    margin-top: 50px;
+  }
+  
+  .movie-details-back-btn {
+    margin-bottom: 20px;
+  }
+  
+  .movie-details-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .movie-details-year {
+    color: #6c757d;
+    font-size: 1rem;
+  }
+  
+  .movie-details-plot {
+    font-size: 1.125rem;
+    color: #343a40;
+  }
+  
+  .movie-details-row {
+    margin-top: 30px;
+  }
+  
+  .movie-details-column {
+    padding: 15px;
+  }
+  
+  .movie-details-poster {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-details-badge {
+    background-color: #f8c146;
+    color: #212529;
+  }
+  
+  .movie-details-btns {
+    margin-top: 30px;
+  }
+  
+  .movie-details-btns .btn {
+    margin-right: 10px;
+  }
+  
+  /* Default Poster if no image */
+  .default-movie-poster {
+    background-image: url("../../public/default_poster.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
